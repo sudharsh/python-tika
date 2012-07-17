@@ -34,9 +34,13 @@ returns a `dict`,
 					  u'title': u'Hello world'}
 	}
 
-  
+## Thanks
+
+`setup.py` script derived from @aptivate/python-tika.
+
+
    
-Derived from aptivate/python-tika  
+
    
    
 
