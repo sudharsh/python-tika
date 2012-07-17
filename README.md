@@ -36,7 +36,7 @@ returns a `dict`,
 
 ## Thanks
 
-`setup.py` script derived from @aptivate/python-tika.
+`setup.py` script derived from [aptivate/python-tika](http://github.com/aptivate/python-tika)
 
 
    
