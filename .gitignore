@@ -1,0 +1,7 @@
+build
+dist
+lib
+tika.egg-info
+*.swp
+*~
+apache-tika.log
