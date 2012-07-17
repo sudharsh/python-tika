@@ -11,7 +11,7 @@
 
  Or,
  
-	$ pip install git+https://github.com/cruns/python-tika.git
+	$ pip install git+https://github.com/sudharsh/python-tika.git
 
 ## Usage
 
