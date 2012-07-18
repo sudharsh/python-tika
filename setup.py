@@ -30,7 +30,7 @@ def check_deps(required, found):
 
 
 def find_deps(required):
-    classpath = [x for x in os.environ.get("CLASSPATH", []).split(":") if x] + ["lib", "win", os.getcwdu()]
+    classpath = [x for x in os.environ.get("CLASSPATH", "").split(":") if x] + ["lib", "win", os.getcwdu()]
     path = sys.path + ["lib", "win"]
     found = {}
     def __probe(paths):
