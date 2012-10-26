@@ -11,6 +11,8 @@ def from_buffer(string):
     return __parse(stream)
 
 def __parse(stream):
+    if not tika.getVMEnv():
+        raise RuntimeError("tika.initVM() not called")
     parsed = {}
     parser = tika.AutoDetectParser()
     content = tika.BodyContentHandler()
